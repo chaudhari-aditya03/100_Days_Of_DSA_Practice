@@ -15,21 +15,18 @@ public class MaxArray {
             arr[i]=sc.nextInt();
         }
         int max=0;
-        for(int i=0;i<n;i++)
-        {
+        for(int i=0;i<n;i++){
             for(int j=i+1;j<n-1;j++)
-            {
-                if(arr[i]>arr[j])
+            {if(arr[i]>arr[j])
                 {
                   max=arr[i];
-                }
-                else
+                } else
                 {
                     max = arr[j];
                 }
             }
         }
-        System.out.println("Maximum Element is : "+max);
+        System.out.println("Maximum Element is : "+max+"");
         sc.close();
     }
 
