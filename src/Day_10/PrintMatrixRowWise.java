@@ -1,4 +1,4 @@
 package Day_10;
 
-public class PrintMatruxRowWise {
+public class PrintMatrixRowWise {
 }

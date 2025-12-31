@@ -1,4 +1,4 @@
 package Day_15;
 
-public class MergeSoty {
+public class MergeSort {
 }
